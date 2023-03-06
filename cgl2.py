@@ -253,7 +253,7 @@ def cgl(currentStep, nextStep, n=0):
 			    nextStep[row][col] = 0
 				
 	if n == CORES:
-		data[0] = data[SIZE]
+		data[0] = data[n]
 	return
 	
 def cgl2(curr, nextStep, steps):
